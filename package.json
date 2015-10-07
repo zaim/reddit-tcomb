@@ -1,0 +1,32 @@
+{
+  "name": "reddit-tcomb",
+  "version": "0.0.1",
+  "description": "reddit-tcomb",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'lib/**/__tests__/*-test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaim/reddit-tcomb"
+  },
+  "author": {
+    "name": "zaim",
+    "email": "abuzaim12@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "json",
+    "reddit",
+    "tcomb",
+    "types"
+  ],
+  "dependencies": {
+    "tcomb": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^1.5.0",
+    "mocha": "^2.3.3"
+  }
+}
